@@ -1,0 +1,94 @@
+.abas {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+}
+.tabComp {
+  margin-right: 20px;
+}
+
+.header {
+  background: linear-gradient(to bottom, #535b6b 0%, transparent 100%);
+  text-align: center;
+  width: 100vw;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  display: flex;
+  justify-content: flex-start;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 0 20px;
+}
+
+.mode-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.mode-toggle:active {
+  transform: scale(0.85) rotate(20deg);
+  color: #ffd700;
+}
+
+.mode-toggle:hover {
+  transform: scale(1.2) rotate(-10deg);
+  color: #61dafb;
+}
+
+.mode-toggle:focus {
+  outline: none; /* Remove o contorno ao focar */
+  box-shadow: none; /* Remove qualquer sombra de foco */
+}
+
+/* Estilos para o modo escuro e claro */
+body.dark-mode {
+  background: #181a1b;
+}
+
+body.dark-mode .header {
+  background: linear-gradient(to bottom, #282c34 35%, transparent 100%);
+}
+
+body.light-mode {
+  background: #9faecc;
+}
+
+body.light-mode .header {
+  background: linear-gradient(to bottom, #201c1c 35%, transparent 100%);
+  color: #181a1b;
+}
+
+body.dark-mode .tabComp {
+  color: #bc83f1;
+}
+
+body.light-mode .tabComp {
+  color: #bc83f1;
+}
