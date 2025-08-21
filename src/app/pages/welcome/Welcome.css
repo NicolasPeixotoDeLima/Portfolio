@@ -38,6 +38,17 @@
   border-color: #646cff;
 }
 
+body.light-mode .curriculum {
+  background-color: #a678f0;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+body.light-mode .curriculum:hover {
+  transform: translateY(-2px);
+  background-color: #646cff;
+}
+
 .curriculum:hover {
   border-color: #64faff;
 }
