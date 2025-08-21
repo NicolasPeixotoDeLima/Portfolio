@@ -35,7 +35,8 @@
 }
 
 .curriculum {
-  border-color: #646cff;
+  background-color: #646cff;
+  transition: all 0.3s ease;
 }
 
 body.light-mode .curriculum {
@@ -50,7 +51,8 @@ body.light-mode .curriculum:hover {
 }
 
 .curriculum:hover {
-  border-color: #64faff;
+  background-color: #a678f0;
+  transform: translateY(-2px);
 }
 
 body.light-mode .contact {
