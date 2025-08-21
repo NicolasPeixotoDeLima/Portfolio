@@ -3,6 +3,7 @@ import { Header } from "./header/Header";
 import { Welcome } from "./welcome/Welcome";
 import { Experiences } from "./experiences/Experiences";
 import { Skills } from "./skills/Skills";
+import { About } from "./about/About";
 
 export const Home = () => {
   return [
@@ -11,6 +12,7 @@ export const Home = () => {
       <Welcome />
       <Experiences />
       <Skills />
+      <About />
     </>,
   ];
 };

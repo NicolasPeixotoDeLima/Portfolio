@@ -26,9 +26,6 @@ export const Header = () => {
           <a className="tabComp" href="#skills">
             Habilidades
           </a>
-          <a className="tabComp" href="#projects">
-            Projetos
-          </a>
           <a className="tabComp" href="#about">
             Sobre
           </a>

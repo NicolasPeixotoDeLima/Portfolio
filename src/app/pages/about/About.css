@@ -1,0 +1,105 @@
+/* Título */
+.abtTitle {
+  font-size: 4.5rem;
+  color: #4a5a6a;
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Container principal */
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 60px;
+  gap: 40px;
+  flex-wrap: wrap;
+  border-radius: 20px;
+}
+
+/* Texto */
+.abtText {
+  font-size: 1.4rem;
+  color: #2e3a4a;
+  max-width: 700px;
+  line-height: 1.9;
+  font-family: "Playfair Display", serif;
+
+  font-weight: 500;
+  text-align: left;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 6px solid #a678f0;
+  position: relative;
+  z-index: 1;
+}
+
+/* Hover sutil para dar vida */
+.abtText:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.18);
+}
+
+/* Imagem */
+.abtPic {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  animation: profile-animation 8s infinite ease-in-out;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.abtPic:hover {
+  transform: scale(1.05);
+}
+
+/* Animação orgânica */
+@keyframes profile-animation {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+body.dark-mode .abtText {
+  background-color: #282c34;
+  box-shadow: 0 8px 20px #0303037e;
+  color: #ecf0f1;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .abtTitle {
+    font-size: 3rem;
+  }
+
+  .abtText {
+    font-size: 1.2rem;
+    padding: 20px;
+  }
+
+  .abtPic {
+    width: 300px;
+    height: 300px;
+  }
+}
