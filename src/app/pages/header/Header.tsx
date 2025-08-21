@@ -19,9 +19,6 @@ export const Header = () => {
           onClick={() => (window.location.hash = "#about")}
         />
         <nav className="abas">
-          <a className="tabComp" href="#about">
-            Sobre
-          </a>
           <a className="tabComp" href="#experiences">
             Experiências
           </a>
@@ -30,6 +27,9 @@ export const Header = () => {
           </a>
           <a className="tabComp" href="#projects">
             Projetos
+          </a>
+          <a className="tabComp" href="#about">
+            Sobre
           </a>
           <a className="tabComp" href="#contact">
             Contato

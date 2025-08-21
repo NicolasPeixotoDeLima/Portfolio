@@ -77,7 +77,7 @@ body.dark-mode .header {
 }
 
 body.light-mode {
-  background: #9faecc;
+  background: #f0f4f8;
 }
 
 body.light-mode .header {
@@ -86,9 +86,9 @@ body.light-mode .header {
 }
 
 body.dark-mode .tabComp {
-  color: #bc83f1;
+  color: #a678f0;
 }
 
 body.light-mode .tabComp {
-  color: #bc83f1;
+  color: #a678f0;
 }

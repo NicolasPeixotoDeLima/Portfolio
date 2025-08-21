@@ -1,0 +1,47 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw; /* Garante que ocupa toda a largura */
+}
+
+.nameAbout {
+  font-size: 6rem; /* Aumenta bastante o tamanho da fonte */
+  font-weight: bold;
+  color: #707c92;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.role {
+  font-size: 3rem; /* Tamanho da fonte para o cargo */
+  color: #a678f0; /* Cor do texto do cargo */
+  text-align: center;
+  margin-bottom: 32px; /* Espaçamento abaixo do cargo */
+}
+
+.firstImpression {
+  font-size: 1.5rem; /* Tamanho da fonte para a primeira impressão */
+  color: #707c92; /* Cor do texto da primeira impressão */
+  text-align: center;
+  max-width: 800px; /* Largura máxima para o texto */
+  margin-top: 20px; /* Espaçamento acima do texto */
+}
+
+.contact:focus {
+  outline: none; /* Remove o contorno ao focar */
+  box-shadow: none; /* Remove qualquer sombra de foco */
+}
+
+.contact {
+  border-color: #646cff;
+}
+
+.contact:hover {
+  border-color: #64faff;
+}
+
+body.light-mode .contact {
+  background-color: #a678f0;
+}

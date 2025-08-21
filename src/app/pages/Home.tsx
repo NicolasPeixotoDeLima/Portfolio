@@ -1,12 +1,12 @@
 import "./Home.css";
 import { Header } from "./header/Header";
-import { About } from "./about/About";
+import { Welcome } from "./welcome/Welcome";
 
 export const Home = () => {
   return [
     <>
       <Header />
-      <About />
+      <Welcome />
     </>,
   ];
 };
