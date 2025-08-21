@@ -11,13 +11,14 @@ export const Header = () => {
   return (
     <header className="header">
       <div className="header-content">
-        <img
-          src="/src/images/perfil.jpg"
-          className="profile-img"
-          alt="Perfil"
-          style={{ cursor: "pointer" }}
-          onClick={() => (window.location.hash = "#about")}
-        />
+        <a href="#welcome">
+          <img
+            src="/src/images/perfil.jpg"
+            className="profile-img"
+            alt="Perfil"
+            style={{ cursor: "pointer" }}
+          />
+        </a>
         <nav className="abas">
           <a className="tabComp" href="#experiences">
             Experiências

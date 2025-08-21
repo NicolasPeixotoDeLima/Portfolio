@@ -2,7 +2,7 @@ import "./Welcome.css";
 
 export const Welcome = () => {
   return (
-    <div className="about">
+    <div className="about" id="welcome">
       <h1 className="nameAbout">Nicolas Peixoto de Lima</h1>
       <h1 className="role">Desenvolvedor de Software Front-End</h1>
       <h2 className="firstImpression">
