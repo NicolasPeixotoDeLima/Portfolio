@@ -15,7 +15,9 @@ export const Welcome = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className="contact">Entrar em contato</button>
+        <a href="./src/docs/Curriculum Vitae Nicolas Peixoto.pdf" download>
+          <button className="curriculum">📄 Baixar Currículo</button>
+        </a>
       </a>
     </div>
   );

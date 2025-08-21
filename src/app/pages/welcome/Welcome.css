@@ -29,16 +29,16 @@
   margin-top: 20px; /* Espaçamento acima do texto */
 }
 
-.contact:focus {
+.curriculum:focus {
   outline: none; /* Remove o contorno ao focar */
   box-shadow: none; /* Remove qualquer sombra de foco */
 }
 
-.contact {
+.curriculum {
   border-color: #646cff;
 }
 
-.contact:hover {
+.curriculum:hover {
   border-color: #64faff;
 }
 

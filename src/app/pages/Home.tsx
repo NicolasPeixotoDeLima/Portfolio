@@ -4,6 +4,7 @@ import { Welcome } from "./welcome/Welcome";
 import { Experiences } from "./experiences/Experiences";
 import { Skills } from "./skills/Skills";
 import { About } from "./about/About";
+import { Contact } from "./contact/Contact";
 
 export const Home = () => {
   return [
@@ -13,6 +14,7 @@ export const Home = () => {
       <Experiences />
       <Skills />
       <About />
+      <Contact />
     </>,
   ];
 };
