@@ -10,14 +10,9 @@ export const Welcome = () => {
         design de interfaces, desenvolvimento e manutenção de aplicações web e
         mobile.
       </h2>
-      <a
-        href="https://wa.me/5511947457809"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <a href="./src/docs/Curriculum Vitae Nicolas Peixoto.pdf" download>
-          <button className="curriculum">📄 Baixar Currículo</button>
-        </a>
+
+      <a href="./public/docs/Curriculum Vitae Nicolas Peixoto.pdf" download>
+        <button className="curriculum">📄 Baixar Currículo</button>
       </a>
     </div>
   );
