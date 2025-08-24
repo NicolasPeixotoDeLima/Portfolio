@@ -11,7 +11,7 @@ export const Welcome = () => {
         mobile.
       </h2>
 
-      <a href="./public/docs/Curriculum Vitae Nicolas Peixoto.pdf" download>
+      <a href="/docs/Curriculum Vitae Nicolas Peixoto.pdf" download>
         <button className="curriculum">📄 Baixar Currículo</button>
       </a>
     </div>
