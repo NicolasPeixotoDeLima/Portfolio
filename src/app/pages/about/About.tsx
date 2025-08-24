@@ -21,7 +21,7 @@ export const About = () => {
             encanta. E é exatamente isso que busco em cada linha de código que
             escrevo.
           </div>
-          <img src="/public/images/perfil.jpg" className="abtPic" />
+          <img src="/dist/images/perfil.jpg" className="abtPic" />
         </div>
       </div>
     </>
