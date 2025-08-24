@@ -13,7 +13,7 @@ export const Header = () => {
       <div className="header-content">
         <a href="#welcome">
           <img
-            src="/dist/images/perfil.jpg"
+            src="/public/images/perfil.jpg"
             className="profile-img"
             alt="Perfil"
             style={{ cursor: "pointer" }}
