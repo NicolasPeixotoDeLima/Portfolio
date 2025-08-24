@@ -8,7 +8,7 @@ export const Welcome = () => {
       <h2 className="firstImpression">
         Desenvolvedor baseado em São Caetano do Sul, Brasil. Especializado em
         design de interfaces, desenvolvimento e manutenção de aplicações web e
-        mobile.
+        mobile. teste
       </h2>
 
       <a href="./dist/docs/Curriculum Vitae Nicolas Peixoto.pdf" download>
